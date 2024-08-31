@@ -33,7 +33,7 @@
 
 .bgImage {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   flex: 1;
   object-fit: cover;
 }
@@ -46,7 +46,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
   padding: 1rem;
 }
 
@@ -152,6 +151,10 @@ footer button:hover {
 .descriptionTitle {
   font-size: 1.1rem;
   font-weight: 200;
+}
+
+.explanation {
+  text-align: justify;
 }
 
 .loadingState {
