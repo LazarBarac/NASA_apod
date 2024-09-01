@@ -5,7 +5,7 @@ export default function Main({ ...props }) {
     <div className="imgContainer">
       <img
         className="bgImage"
-        src={props.data.url}
+        src={props.data.hdurl}
         alt={props.data.title || "bg-img"}
       />
     </div>
